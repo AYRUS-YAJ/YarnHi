@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to YarnHi</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Yarnhi | Cloth Printing Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <h1>Welcome to YarnHi</h1>
-    <p>Website under construction...</p>
-  </header>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Yarnhi</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Print Your Story on Fabric</h2>
+            <p>Custom cloth printing for Corporate, Sports Wear & businesses</p>
+            <a href="#contact" class="btn">Get a Quote</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">Corporate Wear</div>
+            <div class="card">Hoodies & Sweatshirts</div>
+            <div class="card">Sports Wear</div>
+            <div class="card">Oversize & Round Neck</div>
+            <div class="card">Bulk Orders</div>
+            <div class="card">Design Assistance</div>
+            <div class="card">No minimum Quantity</div>
+            <div class="card">Printing Technology DTG DTF Embroidery</div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section light">
+        <h2>Why Yarnhi?</h2>
+        <p>
+            Yarnhi delivers high-quality textile printing using modern techniques,
+            eco-friendly inks, and premium fabrics. From small custom orders to bulk
+            production, we help bring your ideas to life.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="https://formspree.io/f/xwvbelzy" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Tell us about your project" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p class="form-note">Your message will be sent instantly. Thank you!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h3>Yarnhi</h3>
+                <p>Custom Cloth & Sports Wear Printing</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61585283080564" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/yarnhitamilnadu/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/message/6XWRKQUIRPSDN1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-map">
+                <h4>Find Us</h4>
+                <a href="https://maps.app.goo.gl/C1h8jkj6SnQEUCRdA" target="_blank">
+                    <i class="fas fa-location-dot"></i> Open in Google Maps
+                </a>
+            </div>
+
+        </div>
+
+        <p class="footer-bottom">© 2026 Yarnhi. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
